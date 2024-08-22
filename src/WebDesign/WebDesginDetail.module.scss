@@ -52,16 +52,12 @@ $color5: #bdbdbd;
       gap: 50px;
       .img {
         width: 100%;
-        margin-bottom: 50px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top;
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden;
-        &:last-child {
-          margin-bottom: none;
-        }
       }
     }
     .right {

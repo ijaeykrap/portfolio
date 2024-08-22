@@ -51,13 +51,10 @@ $color1: #ededed;
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden;
-        &:last-child {
-          margin-bottom: 0;
-        }
       }
     }
     .right {

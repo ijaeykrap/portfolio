@@ -47,16 +47,12 @@
 }
 .detail .container .left .img {
   width: 100%;
-  margin-bottom: 50px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-}
-.detail .container .left .img:last-child {
-  margin-bottom: none;
 }
 .detail .container .right {
   height: 50vh;

@@ -53,7 +53,6 @@ export const BrandingInfo = [
     src: "../img/branding-story-thumb.jpg",
     alt: "winter photo collage - black",
     link: "story",
-    height: 11884,
     img: [
       {
         src: "../img/branding-story-1.jpg",

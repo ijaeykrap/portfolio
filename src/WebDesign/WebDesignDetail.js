@@ -9,8 +9,6 @@ export default function WebDesignDetail() {
   const index = WebDesignInfo.findIndex((i) => i.link === id);
   const arr = WebDesignInfo[index];
 
-  console.log(arr.move);
-
   return (
     <section className={style.detail}>
       <div className={style.container}>

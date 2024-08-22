@@ -54,9 +54,6 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.detail .container .left .img:last-child {
-  margin-bottom: none;
-}
 .detail .container .right {
   height: 50vh;
   position: sticky;
