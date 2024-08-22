@@ -29,7 +29,7 @@
   height: 100%;
 }
 .detail .container {
-  width: 1596px;
+  width: 83.12%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -50,7 +50,7 @@
   margin-bottom: 50px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;

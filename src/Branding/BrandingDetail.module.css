@@ -30,7 +30,7 @@
   height: 100%;
 }
 .detail .container {
-  width: 1596px;
+  width: 83.12%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -56,7 +56,7 @@
   overflow: hidden;
 }
 .detail .container .left .img:last-child {
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 .detail .container .right {
   height: 50vh;
