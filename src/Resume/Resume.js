@@ -13,7 +13,7 @@ export default function Resume() {
               <div key={index} className={style.container}>
                 <div className={style.title}>{r.title}</div>
                 <div className={style.text}>
-                  {index == 3
+                  {index === 3
                     ? ResumeInfo[index].content.map((c) => {
                         return (
                           <span
