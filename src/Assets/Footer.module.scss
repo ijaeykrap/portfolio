@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Anthony";
+  src: url("../../public/font/Anthony.woff") format(woff),
+    url("../../public/font/Anthony.woff2") format(woff2);
+}
+@font-face {
+  font-family: "Picnic";
+  src: url("../../public/font/PicNic-Regular.woff") format(woff),
+    url("../../public/font/PicNic-Regular.woff2") format(woff2);
+}
+@font-face {
+  font-family: "NEXONLv1GothicRegular";
+  src: url("../../public/font/NEXONLv1GothicRegular.ttf") format(ttf);
+}
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("../../public/font/Steps-Mono.otf") format(otf);
+}
+// font-family: "Noto Sans KR", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+footer {
+  h3 {
+    font-family: "Anthony";
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+  width: 100%;
+  background-color: #dbdbdb;
+  padding: 76px 0;
+
+  .inner {
+    width: 1596px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    .ref {
+      ul {
+        margin-top: 20px;
+        li {
+          font-family: "Anthony";
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .font {
+      ul {
+        margin-top: 20px;
+        li {
+          font-size: 1.25rem;
+          &:first-child {
+            font-family: "Anthony";
+          }
+          &:nth-child(2) {
+            font-family: "PicNic";
+          }
+          &:nth-child(3) {
+            font-family: "NEXONLv1GothicRegular";
+          }
+          &:nth-child(4) {
+            font-family: "Steps-Mono";
+          }
+          &:last-child {
+            font-family: "Noto Sans KR", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

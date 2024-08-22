@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Anthony";
+  src: url("../../public/font/Anthony.woff") format(woff), url("../../public/font/Anthony.woff2") format(woff2);
+}
+@font-face {
+  font-family: "Picnic";
+  src: url("../../public/font/PicNic-Regular.woff") format(woff), url("../../public/font/PicNic-Regular.woff2") format(woff2);
+}
+@font-face {
+  font-family: "NEXONLv1GothicRegular";
+  src: url("../../public/font/NEXONLv1GothicRegular.ttf") format(ttf);
+}
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("../../public/font/Steps-Mono.otf") format(otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #dbdbdb;
+  padding: 76px 0;
+}
+footer h3 {
+  font-family: "Anthony";
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+footer .inner {
+  width: 1596px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+footer .inner .ref ul {
+  margin-top: 20px;
+}
+footer .inner .ref ul li {
+  font-family: "Anthony";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+footer .inner .font ul {
+  margin-top: 20px;
+}
+footer .inner .font ul li {
+  font-size: 1.25rem;
+}
+footer .inner .font ul li:first-child {
+  font-family: "Anthony";
+}
+footer .inner .font ul li:nth-child(2) {
+  font-family: "PicNic";
+}
+footer .inner .font ul li:nth-child(3) {
+  font-family: "NEXONLv1GothicRegular";
+}
+footer .inner .font ul li:nth-child(4) {
+  font-family: "Steps-Mono";
+}
+footer .inner .font ul li:last-child {
+  font-family: "Noto Sans KR", sans-serif;
+}/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Anthony";
+  src: url("../../public/font/Anthony.woff") format(woff),
+    url("../../public/font/Anthony.woff2") format(woff2);
+}
+@font-face {
+  font-family: "Picnic";
+  src: url("../../public/font/PicNic-Regular.woff") format(woff),
+    url("../../public/font/PicNic-Regular.woff2") format(woff2);
+}
+@font-face {
+  font-family: "NEXONLv1GothicRegular";
+  src: url("../../public/font/NEXONLv1GothicRegular.ttf") format(ttf);
+}
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("../../public/font/Steps-Mono.otf") format(otf);
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: normal;
+}
+// font-family: "Noto Sans KR", sans-serif;
+.school {
+  width: 100%;
+  .inner {
+    width: 1596px;
+    margin: 0 auto;
+    .headArea {
+      h3 {
+        margin-top: 150px;
+        font-family: "Picnic";
+        font-size: 6rem;
+        text-transform: capitalize;
+      }
+    }
+    .list {
+      margin: 80px 0 200px 0;
+      width: 100%;
+      height: 1287px;
+      display: grid;
+      grid-template-columns: repeat(3, 32.33%);
+      grid-template-rows: repeat(2, 366px), 507px;
+      column-gap: 24px;
+      row-gap: 24px;
+      li {
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        &:nth-child(3) {
+          grid-column: 3/4;
+          grid-row: 1/3;
+        }
+        &:nth-child(4) {
+          grid-row-start: 2;
+        }
+        &:nth-child(5) {
+          grid-row-start: 2;
+        }
+        &:last-child {
+          grid-row: 3/4;
+          grid-column: 1/4;
+        }
+        .container {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          .img {
+            opacity: 1;
+            border-radius: 30px;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+          .hoverArea {
+            opacity: 0;
+            font-family: "NEXONLv1GothicRegular";
+            position: absolute;
+            width: 90%;
+            height: 70%;
+            background-color: rgba(0, 0, 0, 0.1);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+
+            .title {
+              font-size: 2rem;
+              text-transform: uppercase;
+            }
+            a {
+              width: 181px;
+              height: 54px;
+              display: block;
+              border: 1px solid #000;
+              background-color: #fff;
+              border-radius: 50px;
+              text-align: center;
+              line-height: 54px;
+              font-size: 1.5rem;
+              &:hover {
+                transition: all 0.3s;
+                background-color: #dbdbdb;
+              }
+            }
+          }
+        }
+        &:hover {
+          transform: scale(1.02);
+          transition: all 0.3s;
+          .img {
+            opacity: 0.5;
+            transition: all 0.3s;
+          }
+          .hoverArea {
+            opacity: 1;
+            transition: all 0.3s;
+          }
+        }
+      }
+    }
+  }
+}

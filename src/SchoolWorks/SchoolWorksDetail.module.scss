@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Anthony";
+  src: url("../../public/font/Anthony.woff") format(woff),
+    url("../../public/font/Anthony.woff2") format(woff2);
+}
+@font-face {
+  font-family: "Picnic";
+  src: url("../../public/font/PicNic-Regular.woff") format(woff),
+    url("../../public/font/PicNic-Regular.woff2") format(woff2);
+}
+@font-face {
+  font-family: "NEXONLv1GothicRegular";
+  src: url("../../public/font/NEXONLv1GothicRegular.ttf") format(ttf);
+}
+@font-face {
+  font-family: "Steps-Mono";
+  src: url("../../public/font/Steps-Mono.otf") format(otf);
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: normal;
+}
+// font-family: "Noto Sans KR", sans-serif;
+$color1: #ededed;
+* {
+  margin: 0;
+  padding: 0;
+}
+.detail {
+  width: 100%;
+  height: 100%;
+  .container {
+    width: 1596px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+    padding: 150px 0 200px 0;
+    & > div {
+      width: 49.24%;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .img {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        &:last-child {
+          margin-bottom: none;
+        }
+      }
+    }
+    .right {
+      height: 50vh;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 150px;
+      .text {
+        h4 {
+          font-size: 2rem;
+          font-family: "Noto Sans KR", sans-serif;
+          text-transform: capitalize;
+        }
+        p {
+          margin: 50px 0 100px 0;
+          font-size: 1.625rem;
+          line-height: 2.375rem;
+          word-break: keep-all;
+        }
+      }
+      a {
+        font-size: 1.25rem;
+        font-family: "NEXONLv1GothicRegular";
+        width: 166px;
+        height: 58px;
+        border: 1px solid #000;
+        border-radius: 50px;
+        display: block;
+        text-align: center;
+        line-height: 58px;
+        &:hover {
+          transition: all 0.3s;
+          background-color: #dbdbdb;
+        }
+      }
+    }
+  }
+}

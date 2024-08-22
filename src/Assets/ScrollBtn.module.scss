@@ -1,0 +1,38 @@
+button {
+  mix-blend-mode: exclusion;
+  width: 60px;
+  height: 60px;
+  background-color: #dbdbdb;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 40px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s;
+
+  div {
+    background-image: url("../../public/img/logo-arrow-2.svg");
+    height: 33px;
+    width: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &:hover {
+    background-color: #a2a2a2;
+    transform: scale(1.1);
+  }
+}
+.top {
+  bottom: 120px;
+}
+
+.bottom {
+  bottom: 40px;
+  div {
+    transform: rotateX(180deg);
+  }
+}
